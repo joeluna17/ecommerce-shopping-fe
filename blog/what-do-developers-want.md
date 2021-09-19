@@ -1,5 +1,5 @@
 ---
-path: what-a-dev-wants
+path: /blog/what-a-dev-wants
 date: 2021-09-19T20:19:37.544Z
 title: What do developers want?
 ---
