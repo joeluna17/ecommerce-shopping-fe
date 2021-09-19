@@ -3,7 +3,7 @@ module.exports = {
     title: `Ecommerce Shopping`,
     author: {
       name: `Joe Luna`,
-      summary: ``,
+      summary: `Full Stack Developer`,
     },
     description: ``,
     siteUrl: `https://unruffled-snyder-40f2b9.netlify.app`,
@@ -112,7 +112,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Ecommmerce Application`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
