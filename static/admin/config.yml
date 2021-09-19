@@ -1,5 +1,7 @@
 backend:
-  name: test-repo
+  name: github
+  repo: joeluna17/ecommerce-shopping-fe
+  branch: master
 
 media_folder: static/assets
 public_folder: /assets
