@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://unruffled-snyder-40f2b9.netlify.app",
     title: "shopping-app-fe",
   },
   plugins: [
@@ -10,12 +10,13 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "markdown-pages",
+        name: `markdown-pages`,
         path: `${__dirname}/blog`,
       },
       __key: "images",
     },
+    `gatsby-transformer-remark`
   ],
 };
